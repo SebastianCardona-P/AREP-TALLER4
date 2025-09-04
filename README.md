@@ -179,6 +179,7 @@ docker run -p 35000:6000 your_dockerhub_username/areptaller4
 
 
 ### Video demostrativo de despligue en youtube
+### De click en la siguiente imagen para ejecutar el video
 [![Despliegue en AWS](https://img.youtube.com/vi/nDxbHUIFAXE/0.jpg)](https://youtu.be/nDxbHUIFAXE "Despliegue en AWS")
 ## Configuración
 

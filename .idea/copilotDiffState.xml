@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Dockerfile">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Dockerfile" />
+              <option name="originalContent" value="FROM openjdk:21&#10;&#10;WORKDIR /usrapp/bin&#10;&#10;ENV PORT=6000&#10;&#10;# Copiar las clases compiladas&#10;COPY /target/classes /usrapp/bin/classes&#10;&#10;CMD [&quot;java&quot;,&quot;-cp&quot;,&quot;./classes&quot;,&quot;co.edu.escuelaing.microsptingboot.MicroSptingBoot&quot;]" />
+              <option name="updatedContent" value="FROM openjdk:21&#10;&#10;WORKDIR /usrapp/bin&#10;&#10;ENV PORT=6000&#10;&#10;# Copiar las clases compiladas&#10;COPY /target/classes /usrapp/bin/classes&#10;&#10;CMD [&quot;java&quot;,&quot;-cp&quot;,&quot;./classes&quot;,&quot;co.edu.escuelaing.microsptingboot.MicroSptingBoot&quot;]" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
